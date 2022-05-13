@@ -1,0 +1,42 @@
+body {
+  background-color: antiquewhite;
+}
+#header {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+#LOGO {
+  padding-left: 40px;
+}
+
+#menu-wrapped {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-item {
+  color: black;
+  font-weight: 400;
+  background-color: greenyellow;
+  border-radius: 10px;
+  padding: 3px 20px;
+}
+.menu-item:hover {
+  background-color: pink;
+}
+.menu-item:active {
+  background-color: blue;
+}
+
+#main-content {
+  background-color: lightsalmon;
+}
+#footer {
+  background-color: brown;
+}
